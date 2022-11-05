@@ -1,9 +1,3 @@
-C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\obj\Debug\net6.0\Post.Cmd.Api.csproj.AssemblyReference.cache
-C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\obj\Debug\net6.0\Post.Cmd.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\obj\Debug\net6.0\Post.Cmd.Api.AssemblyInfoInputs.cache
-C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\obj\Debug\net6.0\Post.Cmd.Api.AssemblyInfo.cs
-C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\obj\Debug\net6.0\Post.Cmd.Api.csproj.CoreCompileInputs.cache
-C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\obj\Debug\net6.0\Post.Cmd.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\bin\Debug\net6.0\appsettings.Development.json
 C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\bin\Debug\net6.0\appsettings.json
 C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\bin\Debug\net6.0\Post.Cmd.Api.exe
@@ -60,7 +54,13 @@ C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-
 C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\bin\Debug\net6.0\Post.Cmd.Domain.pdb
 C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\bin\Debug\net6.0\Post.Cmd.Infrastructure.pdb
 C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\bin\Debug\net6.0\Post.Common.pdb
+C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\obj\Debug\net6.0\Post.Cmd.Api.csproj.AssemblyReference.cache
+C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\obj\Debug\net6.0\Post.Cmd.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\obj\Debug\net6.0\Post.Cmd.Api.AssemblyInfoInputs.cache
+C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\obj\Debug\net6.0\Post.Cmd.Api.AssemblyInfo.cs
+C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\obj\Debug\net6.0\Post.Cmd.Api.csproj.CoreCompileInputs.cache
 C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\obj\Debug\net6.0\Post.Cmd.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\obj\Debug\net6.0\Post.Cmd.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\obj\Debug\net6.0\staticwebassets.build.json
 C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\obj\Debug\net6.0\staticwebassets.development.json
 C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\SM-Post\Post.Cmd\Post.Cmd.Api\obj\Debug\net6.0\scopedcss\bundle\Post.Cmd.Api.styles.css
