@@ -24,3 +24,24 @@ docker run -d --name sql-container --network mydockernetwork --restart always `
 -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=$tr0ngS@P@ssw0rd02' -e 'MSSQL_PID=Express' `
 -p 1433:1433 mcr.microsoft.com/mssql/server:2017-latest-ubuntu 
 ```
+
+5. Nuget Packages
+
+- in *CQRS.Core*
+```
+Install-Package MongoDB.Driver 
+```
+
+- in *Post.Cmd.Infrastructure*
+```
+Install-Package Confluent.Kafka 
+Install-Package Microsoft.Extensions.Options 
+Install-Package MongoDB.Driver 
+```
+
+- in *Post.Query.Infrastructure*
+```
+Install-Package Microsoft.EntityFrameworkCore.SqlServer 
+Install-Package Microsoft.Extensions.Hosting 
+Install-Package Confluent.Kafka 
+```
