@@ -1,0 +1,12 @@
+C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\CQRS-ES\CQRS.Core\bin\Debug\net6.0\CQRS.Core.deps.json
+C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\CQRS-ES\CQRS.Core\bin\Debug\net6.0\CQRS.Core.dll
+C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\CQRS-ES\CQRS.Core\bin\Debug\net6.0\CQRS.Core.pdb
+C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\CQRS-ES\CQRS.Core\obj\Debug\net6.0\CQRS.Core.csproj.AssemblyReference.cache
+C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\CQRS-ES\CQRS.Core\obj\Debug\net6.0\CQRS.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\CQRS-ES\CQRS.Core\obj\Debug\net6.0\CQRS.Core.AssemblyInfoInputs.cache
+C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\CQRS-ES\CQRS.Core\obj\Debug\net6.0\CQRS.Core.AssemblyInfo.cs
+C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\CQRS-ES\CQRS.Core\obj\Debug\net6.0\CQRS.Core.csproj.CoreCompileInputs.cache
+C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\CQRS-ES\CQRS.Core\obj\Debug\net6.0\CQRS.Core.dll
+C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\CQRS-ES\CQRS.Core\obj\Debug\net6.0\refint\CQRS.Core.dll
+C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\CQRS-ES\CQRS.Core\obj\Debug\net6.0\CQRS.Core.pdb
+C:\source\Csharp\DotNetMicroservicesCQRSEventSourcingWithKafka\src\CQRSKafka\CQRS-ES\CQRS.Core\obj\Debug\net6.0\ref\CQRS.Core.dll

@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "dgSpecHash": "6Gfa8yFa8aW7UmUoX48PbKfe8DgdDbqOK8x21y9sMmmj8a1CeKT159Iuxc1tBqDjlb7+b9knU1r9GNhNxfV4RA==",
+  "success": true,
+  "projectFilePath": "C:\\source\\Csharp\\DotNetMicroservicesCQRSEventSourcingWithKafka\\src\\CQRSKafka\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+}
