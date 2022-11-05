@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tzFi2Nil5rCR+BK5vK5BOugc8zvlI5pk1XBi1WZDgvs5deKqtZkNlp+Tuf5IDkVl6tcCcKCM5lMcF8/EiQv1kA==",
+  "dgSpecHash": "JNE6BPwaNwoL8xyIAetjISVu/NjrKgZ+JezZwdikYq5VgwrITYDVti9gxo0bmgVxYWUoeWDqWCQ51LAbQfhipw==",
   "success": true,
   "projectFilePath": "C:\\source\\Csharp\\DotNetMicroservicesCQRSEventSourcingWithKafka\\src\\CQRSKafka\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj",
   "expectedPackageFiles": [
