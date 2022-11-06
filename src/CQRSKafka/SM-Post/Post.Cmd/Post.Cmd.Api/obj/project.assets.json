@@ -1244,6 +1244,7 @@
       "CQRS.Core >= 1.0.0",
       "Post.Cmd.Domain >= 1.0.0",
       "Post.Cmd.Infrastructure >= 1.0.0",
+      "Post.Common >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -1282,6 +1283,9 @@
             },
             "C:\\source\\Csharp\\DotNetMicroservicesCQRSEventSourcingWithKafka\\src\\CQRSKafka\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj": {
               "projectPath": "C:\\source\\Csharp\\DotNetMicroservicesCQRSEventSourcingWithKafka\\src\\CQRSKafka\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj"
+            },
+            "C:\\source\\Csharp\\DotNetMicroservicesCQRSEventSourcingWithKafka\\src\\CQRSKafka\\SM-Post\\Post.Common\\Post.Common\\Post.Common.csproj": {
+              "projectPath": "C:\\source\\Csharp\\DotNetMicroservicesCQRSEventSourcingWithKafka\\src\\CQRSKafka\\SM-Post\\Post.Common\\Post.Common\\Post.Common.csproj"
             }
           }
         }

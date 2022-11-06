@@ -25,23 +25,40 @@ docker run -d --name sql-container --network mydockernetwork --restart always `
 -p 1433:1433 mcr.microsoft.com/mssql/server:2017-latest-ubuntu 
 ```
 
+The connect to the server using the following credentials :
+- Server name : localhost
+- no database name
+- Password : from docker command
+- No profile name
+
 5. Nuget Packages
 
 - in *CQRS.Core*
 ```
-Install-Package MongoDB.Driver 
+Install-Package MongoDB.Driver
 ```
 
 - in *Post.Cmd.Infrastructure*
 ```
 Install-Package Confluent.Kafka 
-Install-Package Microsoft.Extensions.Options 
+Install-Package Microsoft.Extensions.Options 6.0.0
 Install-Package MongoDB.Driver 
 ```
 
+- in *Post.Query.Api*
+```
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package Npgsql.EntityFrameworkCore.PostgreSQL
+```
+
+Swashbuckle.AspNetCore" Version="6.2.3
+
 - in *Post.Query.Infrastructure*
 ```
-Install-Package Microsoft.EntityFrameworkCore.SqlServer 
-Install-Package Microsoft.Extensions.Hosting 
-Install-Package Confluent.Kafka 
+Install-Package Microsoft.EntityFrameworkCore.Proxies
+Install-Package Npgsql.EntityFrameworkCore.PostgreSQL
 ```
+
+
+Database.EnsureCreated();
+System.MissingMethodException: 'Method not found: 'Void CoreTypeMappingParameters
