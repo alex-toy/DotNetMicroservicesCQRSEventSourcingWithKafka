@@ -15,9 +15,9 @@ Action<DbContextOptionsBuilder> configureDbContext = o => o.UseLazyLoadingProxie
 builder.Services.AddDbContext<DatabaseContext>(configureDbContext);
 builder.Services.AddSingleton<DatabaseContextFactory>(new DatabaseContextFactory(configureDbContext));
 
-// Create database and tables from code
+// create database and tables
 var dataContext = builder.Services.BuildServiceProvider().GetRequiredService<DatabaseContext>();
-//bool temp = dataContext.Database.EnsureCreated();
+//dataContext.Database.EnsureCreated();
 
 builder.Services.AddScoped<IPostRepository, PostRepository>();
 builder.Services.AddScoped<ICommentRepository, CommentRepository>();
@@ -26,6 +26,7 @@ builder.Services.Configure<ConsumerConfig>(builder.Configuration.GetSection(name
 builder.Services.AddScoped<IEventConsumer, EventConsumer>();
 
 builder.Services.AddControllers();
+builder.Services.AddHostedService<ConsumerHostedService>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

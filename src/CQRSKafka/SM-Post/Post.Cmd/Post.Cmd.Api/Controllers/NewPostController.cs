@@ -23,9 +23,9 @@ namespace Post.Cmd.Api.Controllers
         public async Task<ActionResult> NewPostAsync(NewPostCommand command)
         {
             var id = Guid.NewGuid();
+            command.Id = id;
             try
             {
-                command.Id = id;
                 await _commandDispatcher.SendAsync(command);
 
                 return StatusCode(StatusCodes.Status201Created, new NewPostResponse

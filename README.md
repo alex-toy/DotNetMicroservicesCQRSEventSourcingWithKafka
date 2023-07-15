@@ -10,6 +10,7 @@ docker network create --attachable -d bridge mydockernetwork
 2. Kafka :
 ```
 docker-compose up -d
+docker exec dotnetmicroservicescqrseventsourcingwithkafka_kafka_1 kafka-topics.sh  --bootstrap-server localhost:9092  --create --replication-factor 1 --partitions 1 --topic SocialMediaPostEvents
 ```
 
 3. Mongodb :

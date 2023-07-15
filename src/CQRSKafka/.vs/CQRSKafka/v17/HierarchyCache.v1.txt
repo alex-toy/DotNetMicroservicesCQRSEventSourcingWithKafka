@@ -7,131 +7,223 @@ i:{97b5345b-e107-4347-b09d-608663d86b61}:CQRS.Core
 i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\cqrs.core.csproj
 i:{455ab887-7da2-4778-81a1-b6212d237b53}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\cqrs.core.csproj
 i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\cqrs.core.csproj
-i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\cqrs.core.csproj
-i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\cqrs.core.csproj
-i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\cqrs.core.csproj
 i:{f2441705-80a4-47bd-9103-7b085a4f4dd7}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\cqrs.core.csproj
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\cqrs.core.csproj
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\cqrs.core.csproj
+i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\cqrs.core.csproj
 ++Dependencies
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:>189
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:>562
-i:{455ab887-7da2-4778-81a1-b6212d237b53}:>224
-i:{e8454186-b21e-48d1-ab7e-5d4933088379}:>379
-i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:>561
-i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:>312
-i:{df3d2918-5116-4a16-95a1-190f94d720d6}:>450
-i:{f2441705-80a4-47bd-9103-7b085a4f4dd7}:>993
-++Class1.cs
-i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.domain\class1.cs
-i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\class1.cs
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:>812
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:>1271
+i:{455ab887-7da2-4778-81a1-b6212d237b53}:>813
+i:{e8454186-b21e-48d1-ab7e-5d4933088379}:>811
+i:{f2441705-80a4-47bd-9103-7b085a4f4dd7}:>814
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:>1270
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:>928
+i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:>815
+++Commands
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\commands\
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\
+++Consumers
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\consumers\
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\consumers\
+++Domain
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\domain\
+++Events
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\events\
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\events\
+i:{f2441705-80a4-47bd-9103-7b085a4f4dd7}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.common\post.common\events\
+++Exceptions
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\exceptions\
+++Handlers
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\handlers\
+i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\handlers\
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\handlers\
+++Infrastructure
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\infrastructure\
+++Messages
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\messages\
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\messages\
+++Producers
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\producers\
+i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\producers\
+++Queries
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\queries\
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\queries\
 ++Analyzers
 i:{7cf625c0-543d-4553-b774-ca3e77045534}:analyzers
 i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:analyzers
 i:{455ab887-7da2-4778-81a1-b6212d237b53}:analyzers
 i:{e8454186-b21e-48d1-ab7e-5d4933088379}:analyzers
-i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:analyzers
-i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:analyzers
-i:{df3d2918-5116-4a16-95a1-190f94d720d6}:analyzers
 i:{f2441705-80a4-47bd-9103-7b085a4f4dd7}:analyzers
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:analyzers
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:analyzers
+i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:analyzers
 ++Frameworks
 i:{7cf625c0-543d-4553-b774-ca3e77045534}:frameworks
 i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:frameworks
 i:{455ab887-7da2-4778-81a1-b6212d237b53}:frameworks
 i:{e8454186-b21e-48d1-ab7e-5d4933088379}:frameworks
-i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:frameworks
-i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:frameworks
-i:{df3d2918-5116-4a16-95a1-190f94d720d6}:frameworks
 i:{f2441705-80a4-47bd-9103-7b085a4f4dd7}:frameworks
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:frameworks
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:frameworks
+i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:frameworks
 ++Packages
 i:{7cf625c0-543d-4553-b774-ca3e77045534}:packages
 i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:packages
 i:{e8454186-b21e-48d1-ab7e-5d4933088379}:packages
 i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:packages
 i:{df3d2918-5116-4a16-95a1-190f94d720d6}:packages
+++BaseCommand.cs
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\commands\basecommand.cs
+++IEventConsumer.cs
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\consumers\ieventconsumer.cs
+++AggregateRoot.cs
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\domain\aggregateroot.cs
+++IEventStoreRepository.cs
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\domain\ieventstorerepository.cs
+++BaseEvent.cs
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\events\baseevent.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\events\baseevent.cs
+++EventModel.cs
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\events\eventmodel.cs
+++AggregateNotFoundException.cs
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\exceptions\aggregatenotfoundexception.cs
+++ConcurrencyException.cs
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\exceptions\concurrencyexception.cs
+++IEventSourcingHandler.cs
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\handlers\ieventsourcinghandler.cs
+++ICommandDispatcher.cs
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\infrastructure\icommanddispatcher.cs
+++IEventStore.cs
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\infrastructure\ieventstore.cs
+++IQueryDispatcher.cs
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\infrastructure\iquerydispatcher.cs
+++Message.cs
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\messages\message.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\messages\message.cs
+++IEventProducer.cs
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\producers\ieventproducer.cs
+++BaseQuery.cs
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\queries\basequery.cs
 ++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
 i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{455ab887-7da2-4778-81a1-b6212d237b53}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{f2441705-80a4-47bd-9103-7b085a4f4dd7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 ++Microsoft.CodeAnalysis.NetAnalyzers
 i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{455ab887-7da2-4778-81a1-b6212d237b53}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{f2441705-80a4-47bd-9103-7b085a4f4dd7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 ++System.Text.Json.SourceGeneration
 i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{455ab887-7da2-4778-81a1-b6212d237b53}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{f2441705-80a4-47bd-9103-7b085a4f4dd7}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 ++Microsoft.NETCore.App
 i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\microsoft.netcore.app
 i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\microsoft.netcore.app
 i:{455ab887-7da2-4778-81a1-b6212d237b53}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.domain\microsoft.netcore.app
 i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\microsoft.netcore.app
-i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\microsoft.netcore.app
-i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.domain\microsoft.netcore.app
-i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\microsoft.netcore.app
 i:{f2441705-80a4-47bd-9103-7b085a4f4dd7}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.common\post.common\microsoft.netcore.app
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\microsoft.netcore.app
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\microsoft.netcore.app
+i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.domain\microsoft.netcore.app
 ++MongoDB.Driver (2.18.0)
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:>875
-i:{e8454186-b21e-48d1-ab7e-5d4933088379}:>879
+i:{7cf625c0-543d-4553-b774-ca3e77045534}:>1326
+i:{e8454186-b21e-48d1-ab7e-5d4933088379}:>1348
 ++SM-Post
 i:{00000000-0000-0000-0000-000000000000}:SM-Post
-++Post.Common
-i:{d9df2968-ab77-4b66-b950-563f607cf587}:Post.Common
-i:{d5a93a59-438c-403e-aaec-7a9f469ef4db}:Post.Common
-i:{455ab887-7da2-4778-81a1-b6212d237b53}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.common\post.common\post.common.csproj
-++Projects
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:projects
-i:{455ab887-7da2-4778-81a1-b6212d237b53}:projects
-i:{e8454186-b21e-48d1-ab7e-5d4933088379}:projects
-i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:projects
-i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:projects
-i:{df3d2918-5116-4a16-95a1-190f94d720d6}:projects
-i:{f2441705-80a4-47bd-9103-7b085a4f4dd7}:projects
 ++Post.Cmd
 i:{d9df2968-ab77-4b66-b950-563f607cf587}:Post.Cmd
 ++Post.Cmd.Api
 i:{d8c884ba-c9b9-4443-a7c6-2f61d4495220}:Post.Cmd.Api
 ++Connected Services 
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:>563
-i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:>564
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:>1273
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:>1272
 ++Properties
 i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\properties\
 i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\properties\
+++AddCommentCommand.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\addcommentcommand.cs
+++CommandHandler.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\commandhandler.cs
+++DeletePostCommand.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\deletepostcommand.cs
+++EditCommentCommand.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\editcommentcommand.cs
+++EditMessageCommand.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\editmessagecommand.cs
+++ICommandHandler.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\icommandhandler.cs
+++LikePostCommand.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\likepostcommand.cs
+++NewPostCommand.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\newpostcommand.cs
+++RemoveCommentCommand.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\removecommentcommand.cs
+++RestoreReadDbCommand.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\restorereaddbcommand.cs
 ++Controllers
 i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\controllers\
 i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\controllers\
+++AddCommentController.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\controllers\addcommentcontroller.cs
+++DeletePostController.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\controllers\deletepostcontroller.cs
+++EditCommentController.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\controllers\editcommentcontroller.cs
+++EditMessageController.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\controllers\editmessagecontroller.cs
+++LikePostController.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\controllers\likepostcontroller.cs
+++NewPostController.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\controllers\newpostcontroller.cs
+++RemoveCommentController.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\controllers\removecommentcontroller.cs
+++RestoreReadDbController.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\controllers\restorereaddbcontroller.cs
+++DTOs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\dtos\
+i:{f2441705-80a4-47bd-9103-7b085a4f4dd7}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.common\post.common\dtos\
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\dtos\
+++NewPostResponse.cs
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\dtos\newpostresponse.cs
+++appsettings.Development.json
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\appsettings.development.json
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\appsettings.development.json
 ++appsettings.json
 i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\appsettings.json
 i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\appsettings.json
 ++Program.cs
 i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\program.cs
 i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\program.cs
-++WeatherForecast.cs
-i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\weatherforecast.cs
 ++No service dependencies discovered
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:>565
-i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:>566
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:>1275
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:>1274
+++Projects
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:projects
+i:{455ab887-7da2-4778-81a1-b6212d237b53}:projects
+i:{e8454186-b21e-48d1-ab7e-5d4933088379}:projects
+i:{f2441705-80a4-47bd-9103-7b085a4f4dd7}:projects
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:projects
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:projects
+i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:projects
 ++launchSettings.json
 i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\properties\launchsettings.json
 i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\properties\launchsettings.json
-++WeatherForecastController.cs
-i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\controllers\weatherforecastcontroller.cs
-++appsettings.Development.json
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\appsettings.development.json
-i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\appsettings.development.json
 ++Microsoft.AspNetCore.Analyzers
 i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
 i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
@@ -161,8 +253,8 @@ i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\program files\dotnet\sdk\6.0.201\sdk
 i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\microsoft.aspnetcore.app
 i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\microsoft.aspnetcore.app
 ++Swashbuckle.AspNetCore (6.2.3)
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:>589
-i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:>612
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:>1294
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:>1312
 ++Post.Cmd.Domain
 i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.domain\post.cmd.domain.csproj
 i:{d8c884ba-c9b9-4443-a7c6-2f61d4495220}:Post.Cmd.Domain
@@ -170,65 +262,45 @@ i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqr
 ++Post.Cmd.Infrastructure
 i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\post.cmd.infrastructure.csproj
 i:{d8c884ba-c9b9-4443-a7c6-2f61d4495220}:Post.Cmd.Infrastructure
+++Post.Common
+i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.common\post.common\post.common.csproj
+i:{455ab887-7da2-4778-81a1-b6212d237b53}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.common\post.common\post.common.csproj
+i:{d9df2968-ab77-4b66-b950-563f607cf587}:Post.Common
+i:{d5a93a59-438c-403e-aaec-7a9f469ef4db}:Post.Common
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.common\post.common\post.common.csproj
+++Aggregates
+i:{455ab887-7da2-4778-81a1-b6212d237b53}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.domain\aggregates\
+++PostAggregate.cs
+i:{455ab887-7da2-4778-81a1-b6212d237b53}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.domain\aggregates\postaggregate.cs
+++Config
+i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\config\
+++Dispatchers
+i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\dispatchers\
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\dispatchers\
+++CommandDispatcher.cs
+i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\dispatchers\commanddispatcher.cs
+++Repositories
+i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\repositories\
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\repositories\
+i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.domain\repositories\
+++Stores
+i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\stores\
+++MongoDbConfig.cs
+i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\config\mongodbconfig.cs
+++EventSourcingHandler.cs
+i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\handlers\eventsourcinghandler.cs
+++EventProducer.cs
+i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\producers\eventproducer.cs
+++EventStoreRepository.cs
+i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\repositories\eventstorerepository.cs
+++EventStore.cs
+i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\stores\eventstore.cs
 ++Confluent.Kafka (1.9.3)
-i:{e8454186-b21e-48d1-ab7e-5d4933088379}:>877
-i:{df3d2918-5116-4a16-95a1-190f94d720d6}:>886
+i:{e8454186-b21e-48d1-ab7e-5d4933088379}:>1347
 ++Microsoft.Extensions.Options (6.0.0)
-i:{e8454186-b21e-48d1-ab7e-5d4933088379}:>878
-++Post.Query
-i:{d9df2968-ab77-4b66-b950-563f607cf587}:Post.Query
-++Post.Query.Api
-i:{aa6773ba-acde-4039-9466-7e4ca4fa0159}:Post.Query.Api
-++Microsoft.EntityFrameworkCore.Analyzers
-i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\users\alexe\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.10\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\users\alexe\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.10\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-++Post.Query.Domain
-i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.domain\post.query.domain.csproj
-i:{aa6773ba-acde-4039-9466-7e4ca4fa0159}:Post.Query.Domain
-i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.domain\post.query.domain.csproj
-++Post.Query.Infrastructure
-i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\post.query.infrastructure.csproj
-i:{aa6773ba-acde-4039-9466-7e4ca4fa0159}:Post.Query.Infrastructure
-++Microsoft.EntityFrameworkCore.SqlServer (6.0.10)
-i:{df3d2918-5116-4a16-95a1-190f94d720d6}:>881
-++Microsoft.Extensions.Hosting (6.0.1)
-i:{df3d2918-5116-4a16-95a1-190f94d720d6}:>885
-++NewFolder
-++Messages
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\messages\
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\messages\
-++Commands
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\commands\
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\
-++Message.cs
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\messages\message.cs
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\messages\message.cs
-++BaseCommand.cs
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\commands\basecommand.cs
-++NewPostCommand.cs
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\newpostcommand.cs
-++EditMessageCommand.cs
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\editmessagecommand.cs
-++LikePostCommand.cs
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\likepostcommand.cs
-++AddCommentClass.cs
-++EditCommentCommand.cs
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\editcommentcommand.cs
-++RemoveCommentCommand.cs
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\removecommentcommand.cs
-++DeletePostCommand.cs
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\deletepostcommand.cs
-++Events
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\events\
-i:{f2441705-80a4-47bd-9103-7b085a4f4dd7}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.common\post.common\events\
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\events\
-++BaseEvent.cs
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\events\baseevent.cs
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\events\baseevent.cs
-++Solution 'CQRSKafka' ‎(7 of 7 projects)
-++C:\Program Files\dotnet\sdk\6.0.201\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
-++C:\Program Files\dotnet\sdk\6.0.201\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.NetAnalyzers.dll
-++NewFolder1
+i:{e8454186-b21e-48d1-ab7e-5d4933088379}:>1349
+++BaseResponse.cs
+i:{f2441705-80a4-47bd-9103-7b085a4f4dd7}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.common\post.common\dtos\baseresponse.cs
 ++CommentAddedEvent.cs
 i:{f2441705-80a4-47bd-9103-7b085a4f4dd7}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.common\post.common\events\commentaddedevent.cs
 ++CommentRemovedEvent.cs
@@ -243,75 +315,92 @@ i:{f2441705-80a4-47bd-9103-7b085a4f4dd7}:c:\source\csharp\dotnetmicroservicescqr
 i:{f2441705-80a4-47bd-9103-7b085a4f4dd7}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.common\post.common\events\postlikedevent.cs
 ++PostRemovedEvent.cs
 i:{f2441705-80a4-47bd-9103-7b085a4f4dd7}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.common\post.common\events\postremovedevent.cs
-++ICommandDispatcher.cs
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\infrastructure\icommanddispatcher.cs
-++Infrastructure
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\infrastructure\
-++Dispatchers
-i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\dispatchers\
-++CommandDispatcher.cs
-i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\dispatchers\commanddispatcher.cs
-++Domain
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\domain\
-++AggregateRoot.cs
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\domain\aggregateroot.cs
-++Aggregates
-i:{455ab887-7da2-4778-81a1-b6212d237b53}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.domain\aggregates\
-++PostAggregate.cs
-i:{455ab887-7da2-4778-81a1-b6212d237b53}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.domain\aggregates\postaggregate.cs
-++EventModel.cs
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\events\eventmodel.cs
-++IEventStoreRepository.cs
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\domain\ieventstorerepository.cs
-++Consumers
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\consumers\
-++IEventConsumer.cs
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\consumers\ieventconsumer.cs
-++Exceptions
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\exceptions\
-++AggregateNotFoundException.cs
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\exceptions\aggregatenotfoundexception.cs
-++ConcurrencyException.cs
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\exceptions\concurrencyexception.cs
-++Handlers
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\handlers\
-i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\handlers\
-++IEventSourcingHandler.cs
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\handlers\ieventsourcinghandler.cs
-++Config
-i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\config\
-++MongoDbConfig.cs
-i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\config\mongodbconfig.cs
-++Producers
-i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\producers\
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\producers\
-++EventProducer.cs
-i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\producers\eventproducer.cs
-++Repositories
-i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\repositories\
-++EventStoreRepository.cs
-i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\repositories\eventstorerepository.cs
-++Stores
-i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\stores\
-++EventStore.cs
-i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\stores\eventstore.cs
-++IEventProducer.cs
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\producers\ieventproducer.cs
-++Queries
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\queries\
-++BaseQuery.cs
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\queries\basequery.cs
-++IEventStore.cs
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\infrastructure\ieventstore.cs
-++IQueryDispatcher.cs
-i:{7cf625c0-543d-4553-b774-ca3e77045534}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\cqrs-es\cqrs.core\infrastructure\iquerydispatcher.cs
-++EventSourcingHandler.cs
-i:{e8454186-b21e-48d1-ab7e-5d4933088379}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.infrastructure\handlers\eventsourcinghandler.cs
-++AddCommentCommand.cs
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\addcommentcommand.cs
-++RestoreReadDbCommand.cs
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\restorereaddbcommand.cs
-++CommandHandler.cs
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\commandhandler.cs
-++ICommandHandler.cs
-i:{344e5502-92a4-4d54-a7d3-1ba79a1e5748}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.cmd\post.cmd.api\commands\icommandhandler.cs
+++Post.Query
+i:{d9df2968-ab77-4b66-b950-563f607cf587}:Post.Query
+++Post.Query.Api
+i:{aa6773ba-acde-4039-9466-7e4ca4fa0159}:Post.Query.Api
+++stored_procs
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\stored_procs\
+++login.sql
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\stored_procs\login.sql
+++appsettings.Development.PostgreSQL.json
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\appsettings.development.postgresql.json
+++PostLookupController.cs
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\controllers\postlookupcontroller.cs
+++PostLookupResponse.cs
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\dtos\postlookupresponse.cs
+++FindAllPostsQuery.cs
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\queries\findallpostsquery.cs
+++FindPostByIdQuery.cs
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\queries\findpostbyidquery.cs
+++FindPostsByAuthorQuery.cs
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\queries\findpostsbyauthorquery.cs
+++FindPostsWithCommentsQuery.cs
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\queries\findpostswithcommentsquery.cs
+++FindPostsWithLikesQuery.cs
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\queries\findpostswithlikesquery.cs
+++IQueryHandler.cs
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\queries\iqueryhandler.cs
+++QueryHandler.cs
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.api\queries\queryhandler.cs
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\users\alexe\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\users\alexe\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.EntityFrameworkCore.Design (6.0.10)
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:>1311
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.11)
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:>1310
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:>1333
+++Microsoft.EntityFrameworkCore.Tools (6.0.10)
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:>1314
+++Npgsql.EntityFrameworkCore.PostgreSQL (6.0.1)
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:>1313
+++Pomelo.EntityFrameworkCore.MySql (6.0.1)
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:>1315
+++Post.Query.Domain
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.domain\post.query.domain.csproj
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.domain\post.query.domain.csproj
+i:{aa6773ba-acde-4039-9466-7e4ca4fa0159}:Post.Query.Domain
+++Post.Query.Infrastructure
+i:{1b45d7a8-6aa0-49fd-8faa-f602a13942b2}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\post.query.infrastructure.csproj
+i:{aa6773ba-acde-4039-9466-7e4ca4fa0159}:Post.Query.Infrastructure
+++ConsumerHostedService.cs
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\consumers\consumerhostedservice.cs
+++EventConsumer.cs
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\consumers\eventconsumer.cs
+++Converters
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\converters\
+++EventJsonConverter.cs
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\converters\eventjsonconverter.cs
+++DataAccess
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\dataaccess\
+++EventHandler.cs
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\handlers\eventhandler.cs
+++IEventHandler.cs
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\handlers\ieventhandler.cs
+++CommentRepository.cs
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\repositories\commentrepository.cs
+++PostRepository.cs
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\repositories\postrepository.cs
+++DatabaseContext.cs
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\dataaccess\databasecontext.cs
+++DatabaseContextFactory.cs
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\dataaccess\databasecontextfactory.cs
+++QueryDispatcher.cs
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.infrastructure\dispatchers\querydispatcher.cs
+++Confluent.Kafka (1.8.2)
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:>1335
+++Microsoft.EntityFrameworkCore.Proxies (6.0.2)
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:>1336
+++Microsoft.Extensions.Hosting (6.0.1)
+i:{df3d2918-5116-4a16-95a1-190f94d720d6}:>1334
+++Entities
+i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.domain\entities\
+++CommentEntity.cs
+i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.domain\entities\commententity.cs
+++PostEntity.cs
+i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.domain\entities\postentity.cs
+++ICommentRepository.cs
+i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.domain\repositories\icommentrepository.cs
+++IPostRepository.cs
+i:{523dfab4-8852-45da-ae69-9f902f2a9ba4}:c:\source\csharp\dotnetmicroservicescqrseventsourcingwithkafka\src\cqrskafka\sm-post\post.query\post.query.domain\repositories\ipostrepository.cs
