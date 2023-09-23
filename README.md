@@ -23,6 +23,8 @@ docker run -it -d --name mongo-container -p 27017:27017 --network mydockernetwor
 docker run -d --name sql-container --network mydockernetwork --restart always -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=$tr0ngS@P@ssw0rd02' -e 'MSSQL_PID=Express' -p 1433:1433 mcr.microsoft.com/mssql/server:2017-latest-ubuntu 
 ```
 
+<img src="/pictures/images.png" title="docker images"  width="900"> 
+
 The connect to the server using the following credentials :
 - Server name : localhost
 - no database name
@@ -62,4 +64,3 @@ Database.EnsureCreated();
 System.MissingMethodException: 'Method not found: 'Void CoreTypeMappingParameters
 
 
-<img src="/pictures/vnp5.png" title="virtual network peering"  width="900"> 
