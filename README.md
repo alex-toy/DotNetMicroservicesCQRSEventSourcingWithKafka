@@ -28,6 +28,7 @@ docker run -d --name sql-container --network mydockernetwork --restart always -e
 The connect to the server using the following credentials :
 - Server name : localhost
 - no database name
+- user name : sa
 - Password : from docker command
 - No profile name
 
@@ -59,8 +60,11 @@ Install-Package Microsoft.EntityFrameworkCore.Proxies
 Install-Package Npgsql.EntityFrameworkCore.PostgreSQL
 ```
 
+## Test API
 
-Database.EnsureCreated();
-System.MissingMethodException: 'Method not found: 'Void CoreTypeMappingParameters
+### Create Post
+<img src="/pictures/post_cmd_api.png" title="post cmd api"  width="900"> 
+
+
 
 
