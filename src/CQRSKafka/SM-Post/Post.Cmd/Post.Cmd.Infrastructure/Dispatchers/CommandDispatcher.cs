@@ -5,28 +5,24 @@ namespace Post.Cmd.Infrastructure.Dispatchers
 {
     public class CommandDispatcher : ICommandDispatcher
     {
+        private const string errorTwice = "You cannot register the same command handler twice!";
+        private const string errorNoHandler = "No command handler was registered!";
         private readonly Dictionary<Type, Func<BaseCommand, Task>> _handlers = new();
 
         public void RegisterHandler<T>(Func<T, Task> handler) where T : BaseCommand
         {
-            if (_handlers.ContainsKey(typeof(T)))
-            {
-                throw new IndexOutOfRangeException("You cannot register the same command handler twice!");
-            }
+            if (_handlers.ContainsKey(typeof(T))) throw new IndexOutOfRangeException(errorTwice);
 
             _handlers.Add(typeof(T), x => handler((T)x));
         }
 
         public async Task SendAsync(BaseCommand command)
         {
-            if (_handlers.TryGetValue(command.GetType(), out Func<BaseCommand, Task> handler))
-            {
-                await handler(command);
-            }
-            else
-            {
-                throw new ArgumentNullException(nameof(handler), "No command handler was registered!");
-            }
+            bool isHandler = _handlers.TryGetValue(command.GetType(), out Func<BaseCommand, Task> handler);
+
+            if (!isHandler) throw new ArgumentNullException(nameof(handler), errorNoHandler);
+
+            await handler(command);
         }
     }
 }
